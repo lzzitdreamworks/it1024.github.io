@@ -69,4 +69,10 @@ theme: next
 # Deployment
 ## Docs: https://hexo.io/docs/deployment.html
 deploy:
-  type:
+  type: git
+  repo: git@itdreamworks.xyz:/home/git/.git
+  branch: master
+
+#  repo: git@github.com:lzzitdreamworks/it1024.github.io.git
+#  repo: git@gitee.com:itdreamworks/it1024.git
+

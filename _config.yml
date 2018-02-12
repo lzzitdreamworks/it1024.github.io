@@ -76,3 +76,11 @@ deploy:
 #  repo: git@github.com:lzzitdreamworks/it1024.github.io.git
 #  repo: git@gitee.com:itdreamworks/it1024.git
 
+
+# Local Search
+search:
+  path: search.xml
+  field: post
+  format: html
+  limit: 10000
+

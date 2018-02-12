@@ -39,7 +39,7 @@
       <file leaf-file-name="_config.yml" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/themes/next/_config.yml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="208">
+            <state relative-caret-position="-278">
               <caret line="599" column="22" lean-forward="false" selection-start-line="599" selection-start-column="22" selection-end-line="599" selection-end-column="22" />
               <folding />
             </state>
@@ -216,12 +216,12 @@
       <workItem from="1518229968822" duration="7683000" />
       <workItem from="1518330839349" duration="2673000" />
       <workItem from="1518355363509" duration="6238000" />
-      <workItem from="1518396277338" duration="17701000" />
+      <workItem from="1518396277338" duration="18171000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="49621000" />
+    <option name="totallyTimeSpent" value="50091000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="484" y="101" width="1058" height="708" extended-state="0" />
@@ -423,7 +423,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/themes/next/_config.yml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="208">
+        <state relative-caret-position="-278">
           <caret line="599" column="22" lean-forward="false" selection-start-line="599" selection-start-column="22" selection-end-line="599" selection-end-column="22" />
           <folding />
         </state>

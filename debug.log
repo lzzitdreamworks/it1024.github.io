@@ -6424,3 +6424,22 @@
 {"name":"hexo","hostname":"itdreamworks","pid":19733,"level":40,"msg":"===============================================================","time":"2018-02-12T13:22:04.893Z","v":0}
 {"name":"hexo","hostname":"itdreamworks","pid":19733,"level":40,"msg":" It's rebase to v6.0.0 and future maintenance will resume there","time":"2018-02-12T13:22:04.893Z","v":0}
 {"name":"hexo","hostname":"itdreamworks","pid":19733,"level":40,"msg":"===============================================================","time":"2018-02-12T13:22:04.893Z","v":0}
+{"name":"hexo","hostname":"itdreamworks","pid":19733,"level":20,"msg":"Theme config loaded.","time":"2018-02-12T13:28:26.808Z","v":0}
+{"name":"hexo","hostname":"itdreamworks","pid":19733,"level":20,"msg":"Processed: \u001b[35m_config.yml___jb_tmp___\u001b[39m","time":"2018-02-12T13:28:26.808Z","v":0}
+{"name":"hexo","hostname":"itdreamworks","pid":19733,"level":20,"msg":"Theme config loaded.","time":"2018-02-12T13:28:26.845Z","v":0}
+{"name":"hexo","hostname":"itdreamworks","pid":19733,"level":20,"msg":"Processed: \u001b[35m_config.yml\u001b[39m","time":"2018-02-12T13:28:26.846Z","v":0}
+{"name":"hexo","hostname":"itdreamworks","pid":19733,"level":20,"msg":"Processed: \u001b[35m_config.yml___jb_tmp___\u001b[39m","time":"2018-02-12T13:28:26.940Z","v":0}
+{"name":"hexo","hostname":"itdreamworks","pid":19733,"level":20,"msg":"Generator: \u001b[35mpage\u001b[39m","time":"2018-02-12T13:28:27.048Z","v":0}
+{"name":"hexo","hostname":"itdreamworks","pid":19733,"level":20,"msg":"Generator: \u001b[35mpost\u001b[39m","time":"2018-02-12T13:28:27.049Z","v":0}
+{"name":"hexo","hostname":"itdreamworks","pid":19733,"level":20,"msg":"Generator: \u001b[35marchive\u001b[39m","time":"2018-02-12T13:28:27.049Z","v":0}
+{"name":"hexo","hostname":"itdreamworks","pid":19733,"level":20,"msg":"Generator: \u001b[35mcategory\u001b[39m","time":"2018-02-12T13:28:27.049Z","v":0}
+{"name":"hexo","hostname":"itdreamworks","pid":19733,"level":20,"msg":"Generator: \u001b[35mindex\u001b[39m","time":"2018-02-12T13:28:27.049Z","v":0}
+{"name":"hexo","hostname":"itdreamworks","pid":19733,"level":20,"msg":"Generator: \u001b[35mtag\u001b[39m","time":"2018-02-12T13:28:27.049Z","v":0}
+{"name":"hexo","hostname":"itdreamworks","pid":19733,"level":20,"msg":"Generator: \u001b[35masset\u001b[39m","time":"2018-02-12T13:28:27.050Z","v":0}
+{"name":"hexo","hostname":"itdreamworks","pid":19733,"level":40,"msg":"===============================================================","time":"2018-02-12T13:28:27.055Z","v":0}
+{"name":"hexo","hostname":"itdreamworks","pid":19733,"level":40,"msg":"========================= ATTENTION! ==========================","time":"2018-02-12T13:28:27.056Z","v":0}
+{"name":"hexo","hostname":"itdreamworks","pid":19733,"level":40,"msg":"===============================================================","time":"2018-02-12T13:28:27.056Z","v":0}
+{"name":"hexo","hostname":"itdreamworks","pid":19733,"level":40,"msg":" NexT repository is moving here: https://github.com/theme-next ","time":"2018-02-12T13:28:27.056Z","v":0}
+{"name":"hexo","hostname":"itdreamworks","pid":19733,"level":40,"msg":"===============================================================","time":"2018-02-12T13:28:27.056Z","v":0}
+{"name":"hexo","hostname":"itdreamworks","pid":19733,"level":40,"msg":" It's rebase to v6.0.0 and future maintenance will resume there","time":"2018-02-12T13:28:27.056Z","v":0}
+{"name":"hexo","hostname":"itdreamworks","pid":19733,"level":40,"msg":"===============================================================","time":"2018-02-12T13:28:27.056Z","v":0}

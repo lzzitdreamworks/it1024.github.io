@@ -88,3 +88,8 @@ search:
 ## Plugins: http://hexo.io/plugins/
 plugins: hexo-generate-feed
 
+# 为博客加上萌萌的宠物
+live2d:
+  model: shizuku
+  bottom: -64
+

@@ -5,18 +5,36 @@
       <change beforePath="$PROJECT_DIR$/.deploy_git" afterPath="$PROJECT_DIR$/.deploy_git" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change beforePath="$PROJECT_DIR$/db.json" afterPath="$PROJECT_DIR$/db.json" />
-      <change beforePath="$PROJECT_DIR$/node_modules/hexo-wordcount/package.json" afterPath="$PROJECT_DIR$/node_modules/hexo-wordcount/package.json" />
       <change beforePath="$PROJECT_DIR$/public/2018/02/08/hello-world/index.html" afterPath="$PROJECT_DIR$/public/2018/02/08/hello-world/index.html" />
       <change beforePath="$PROJECT_DIR$/public/2018/02/08/test-my-site/index.html" afterPath="$PROJECT_DIR$/public/2018/02/08/test-my-site/index.html" />
-      <change beforePath="$PROJECT_DIR$/public/404/index.html" afterPath="$PROJECT_DIR$/public/404/index.html" />
-      <change beforePath="$PROJECT_DIR$/public/archives/2018/02/index.html" afterPath="$PROJECT_DIR$/public/archives/2018/02/index.html" />
-      <change beforePath="$PROJECT_DIR$/public/archives/2018/index.html" afterPath="$PROJECT_DIR$/public/archives/2018/index.html" />
-      <change beforePath="$PROJECT_DIR$/public/archives/index.html" afterPath="$PROJECT_DIR$/public/archives/index.html" />
-      <change beforePath="$PROJECT_DIR$/public/categories/index.html" afterPath="$PROJECT_DIR$/public/categories/index.html" />
+      <change beforePath="$PROJECT_DIR$/public/css/fonts/FontAwesome.otf" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/public/css/fonts/fontawesome-webfont.eot" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/public/css/fonts/fontawesome-webfont.svg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/public/css/fonts/fontawesome-webfont.ttf" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/public/css/fonts/fontawesome-webfont.woff" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/public/css/images/banner.jpg" afterPath="" />
       <change beforePath="$PROJECT_DIR$/public/css/main.css" afterPath="$PROJECT_DIR$/public/css/main.css" />
+      <change beforePath="$PROJECT_DIR$/public/css/style.css" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/public/fancybox/blank.gif" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/public/fancybox/fancybox_loading.gif" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/public/fancybox/fancybox_loading@2x.gif" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/public/fancybox/fancybox_overlay.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/public/fancybox/fancybox_sprite.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/public/fancybox/fancybox_sprite@2x.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/public/fancybox/helpers/fancybox_buttons.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/public/fancybox/helpers/jquery.fancybox-buttons.css" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/public/fancybox/helpers/jquery.fancybox-buttons.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/public/fancybox/helpers/jquery.fancybox-media.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/public/fancybox/helpers/jquery.fancybox-thumbs.css" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/public/fancybox/helpers/jquery.fancybox-thumbs.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/public/fancybox/jquery.fancybox.css" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/public/fancybox/jquery.fancybox.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/public/fancybox/jquery.fancybox.pack.js" afterPath="" />
       <change beforePath="$PROJECT_DIR$/public/index.html" afterPath="$PROJECT_DIR$/public/index.html" />
-      <change beforePath="$PROJECT_DIR$/public/tags/index.html" afterPath="$PROJECT_DIR$/public/tags/index.html" />
+      <change beforePath="$PROJECT_DIR$/public/js/script.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/scaffolds/post.md" afterPath="$PROJECT_DIR$/scaffolds/post.md" />
       <change beforePath="$PROJECT_DIR$/themes/next" afterPath="$PROJECT_DIR$/themes/next" />
+      <change beforePath="$PROJECT_DIR$/themes/next/layout/_partials/footer.swig" afterPath="$PROJECT_DIR$/themes/next/layout/_partials/footer.swig" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -37,11 +55,31 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="_config.yml" pinned="false" current-in-tab="true">
+      <file leaf-file-name="_config.yml" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/themes/next/_config.yml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="13">
-              <caret line="716" column="10" lean-forward="false" selection-start-line="716" selection-start-column="10" selection-end-line="716" selection-end-column="10" />
+            <state relative-caret-position="103">
+              <caret line="721" column="23" lean-forward="false" selection-start-line="721" selection-start-column="23" selection-end-line="721" selection-end-column="23" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="my-copyright.swig" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/themes/next/layout/_macro/my-copyright.swig">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="191">
+              <caret line="14" column="5" lean-forward="false" selection-start-line="14" selection-start-column="5" selection-end-line="14" selection-end-column="5" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="my-post-copyright.styl" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/themes/next/source/css/_common/components/post/my-post-copyright.styl">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="517">
+              <caret line="44" column="1" lean-forward="false" selection-start-line="44" selection-start-column="1" selection-end-line="44" selection-end-column="1" />
               <folding />
             </state>
           </provider>
@@ -57,11 +95,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="footer.swig" pinned="false" current-in-tab="false">
+      <file leaf-file-name="footer.swig" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/themes/next/layout/_partials/footer.swig">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="87">
-              <caret line="41" column="0" lean-forward="false" selection-start-line="41" selection-start-column="0" selection-end-line="41" selection-end-column="0" />
+            <state relative-caret-position="101">
+              <caret line="35" column="12" lean-forward="true" selection-start-line="35" selection-start-column="12" selection-end-line="35" selection-end-column="12" />
               <folding />
             </state>
           </provider>
@@ -83,29 +121,32 @@
       <file leaf-file-name="post.swig" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/themes/next/layout/_macro/post.swig">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="135">
-              <caret line="201" column="34" lean-forward="false" selection-start-line="201" selection-start-column="34" selection-end-line="201" selection-end-column="34" />
+            <state relative-caret-position="75">
+              <caret line="335" column="0" lean-forward="false" selection-start-line="335" selection-start-column="0" selection-end-line="335" selection-end-column="0" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="zh-Hans.yml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/themes/next/languages/zh-Hans.yml">
+      <file leaf-file-name="post.styl" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/themes/next/source/css/_common/components/post/post.styl">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="198">
-              <caret line="33" column="17" lean-forward="false" selection-start-line="33" selection-start-column="17" selection-end-line="33" selection-end-column="17" />
+            <state relative-caret-position="161">
+              <caret line="57" column="0" lean-forward="false" selection-start-line="57" selection-start-column="0" selection-end-line="57" selection-end-column="0" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="custom.styl" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/themes/next/source/css/_custom/custom.styl">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="128">
-              <caret line="10" column="17" lean-forward="false" selection-start-line="10" selection-start-column="17" selection-end-line="10" selection-end-column="17" />
-              <folding />
+      <file leaf-file-name="post.md" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/scaffolds/post.md">
+          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+            <state split_layout="SPLIT">
+              <first_editor relative-caret-position="126">
+                <caret line="7" column="0" lean-forward="true" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
+                <folding />
+              </first_editor>
+              <second_editor />
             </state>
           </provider>
         </entry>
@@ -146,6 +187,8 @@
       <find>favicon</find>
       <find>post_wordcount</find>
       <find>pace</find>
+      <find>if not is_index</find>
+      <find>include 'wechat-subscriber.swig</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -157,17 +200,20 @@
         <option value="$PROJECT_DIR$/themes/next/layout/_macro/sidebar.swig" />
         <option value="$PROJECT_DIR$/themes/next/layout/_layout.swig" />
         <option value="$PROJECT_DIR$/themes/next/source/js/src/love.js" />
-        <option value="$PROJECT_DIR$/themes/next/source/css/_common/components/post/post.styl" />
         <option value="$PROJECT_DIR$/themes/next/layout/_macro/passage-end-tag.swig" />
         <option value="$PROJECT_DIR$/themes/next/source/css/_common/components/sidebar/sidebar-author.styl" />
         <option value="$PROJECT_DIR$/gulpfile.js" />
         <option value="$PROJECT_DIR$/themes/next/source/css/_custom/custom.styl" />
-        <option value="$PROJECT_DIR$/themes/next/layout/_macro/post.swig" />
         <option value="$PROJECT_DIR$/themes/next/languages/zh-Hans.yml" />
-        <option value="$PROJECT_DIR$/themes/next/layout/_partials/footer.swig" />
         <option value="$PROJECT_DIR$/_config.yml" />
         <option value="$PROJECT_DIR$/themes/next/layout/_partials/head.swig" />
         <option value="$PROJECT_DIR$/themes/next/_config.yml" />
+        <option value="$PROJECT_DIR$/themes/next/layout/_macro/my-copyright.swig" />
+        <option value="$PROJECT_DIR$/themes/next/source/css/_common/components/post/my-post-copyright.styl" />
+        <option value="$PROJECT_DIR$/themes/next/layout/_macro/post.swig" />
+        <option value="$PROJECT_DIR$/themes/next/source/css/_common/components/post/post.styl" />
+        <option value="$PROJECT_DIR$/scaffolds/post.md" />
+        <option value="$PROJECT_DIR$/themes/next/layout/_partials/footer.swig" />
       </list>
     </option>
   </component>
@@ -182,9 +228,9 @@
   </component>
   <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" />
   <component name="ProjectFrameBounds">
-    <option name="x" value="546" />
-    <option name="y" value="129" />
-    <option name="width" value="1177" />
+    <option name="x" value="428" />
+    <option name="y" value="76" />
+    <option name="width" value="1176" />
     <option name="height" value="716" />
   </component>
   <component name="ProjectView">
@@ -209,6 +255,11 @@
             <path>
               <item name="hexo" type="b2602c69:ProjectViewProjectNode" />
               <item name="hexo" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="hexo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="hexo" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="scaffolds" type="2a2b976b:PhpTreeStructureProvider$1" />
             </path>
             <path>
               <item name="hexo" type="b2602c69:ProjectViewProjectNode" />
@@ -240,6 +291,57 @@
               <item name="next" type="2a2b976b:PhpTreeStructureProvider$1" />
               <item name="layout" type="2a2b976b:PhpTreeStructureProvider$1" />
               <item name="_partials" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="hexo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="hexo" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="themes" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="next" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="layout" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="_third-party" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="hexo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="hexo" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="themes" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="next" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="layout" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="_third-party" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="comments" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="hexo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="hexo" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="themes" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="next" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="source" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="hexo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="hexo" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="themes" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="next" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="source" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="css" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="hexo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="hexo" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="themes" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="next" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="source" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="css" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="_common" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="hexo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="hexo" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="themes" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="next" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="source" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="css" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="_common" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="components" type="2a2b976b:PhpTreeStructureProvider$1" />
             </path>
           </expand>
           <select />
@@ -292,18 +394,18 @@
       <workItem from="1518330839349" duration="2673000" />
       <workItem from="1518355363509" duration="6238000" />
       <workItem from="1518396277338" duration="21551000" />
-      <workItem from="1518482092791" duration="8597000" />
+      <workItem from="1518482092791" duration="10699000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="62068000" />
+    <option name="totallyTimeSpent" value="64170000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="546" y="129" width="1177" height="716" extended-state="0" />
+    <frame x="428" y="76" width="1176" height="716" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.15208156" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.15306123" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Docker" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
@@ -519,13 +621,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/themes/next/source/css/_common/components/post/post.styl">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="378">
-          <caret line="57" column="0" lean-forward="false" selection-start-line="57" selection-start-column="0" selection-end-line="57" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/themes/next/layout/_macro/passage-end-tag.swig">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="72">
@@ -558,26 +653,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/themes/next/layout/_macro/post.swig">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="201" column="34" lean-forward="false" selection-start-line="201" selection-start-column="34" selection-end-line="201" selection-end-column="34" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/themes/next/languages/zh-Hans.yml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="198">
           <caret line="33" column="17" lean-forward="false" selection-start-line="33" selection-start-column="17" selection-end-line="33" selection-end-column="17" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/themes/next/layout/_partials/footer.swig">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="87">
-          <caret line="41" column="0" lean-forward="false" selection-start-line="41" selection-start-column="0" selection-end-line="41" selection-end-column="0" />
           <folding />
         </state>
       </provider>
@@ -622,8 +701,59 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/themes/next/_config.yml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="13">
-          <caret line="716" column="10" lean-forward="false" selection-start-line="716" selection-start-column="10" selection-end-line="716" selection-end-column="10" />
+        <state relative-caret-position="103">
+          <caret line="721" column="23" lean-forward="false" selection-start-line="721" selection-start-column="23" selection-end-line="721" selection-end-column="23" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/themes/next/layout/_macro/my-copyright.swig">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="191">
+          <caret line="14" column="5" lean-forward="false" selection-start-line="14" selection-start-column="5" selection-end-line="14" selection-end-column="5" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/themes/next/source/css/_common/components/post/my-post-copyright.styl">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="517">
+          <caret line="44" column="1" lean-forward="false" selection-start-line="44" selection-start-column="1" selection-end-line="44" selection-end-column="1" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/themes/next/layout/_macro/post.swig">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="335" column="0" lean-forward="false" selection-start-line="335" selection-start-column="0" selection-end-line="335" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/themes/next/source/css/_common/components/post/post.styl">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="161">
+          <caret line="57" column="0" lean-forward="false" selection-start-line="57" selection-start-column="0" selection-end-line="57" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/scaffolds/post.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="126">
+            <caret line="7" column="0" lean-forward="true" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
+            <folding />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/themes/next/layout/_partials/footer.swig">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="101">
+          <caret line="35" column="12" lean-forward="true" selection-start-line="35" selection-start-column="12" selection-end-line="35" selection-end-column="12" />
           <folding />
         </state>
       </provider>

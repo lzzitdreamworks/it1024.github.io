@@ -16,7 +16,7 @@
       <file leaf-file-name="_config.yml" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/_config.yml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="346">
+            <state relative-caret-position="238">
               <caret line="81" column="18" lean-forward="false" selection-start-line="81" selection-start-column="18" selection-end-line="81" selection-end-column="18" />
               <folding />
             </state>
@@ -27,7 +27,7 @@
         <entry file="file://$PROJECT_DIR$/themes/next/_config.yml">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="54">
-              <caret line="141" column="35" lean-forward="true" selection-start-line="141" selection-start-column="30" selection-end-line="141" selection-end-column="45" />
+              <caret line="141" column="35" lean-forward="false" selection-start-line="141" selection-start-column="30" selection-end-line="141" selection-end-column="45" />
               <folding />
             </state>
           </provider>
@@ -126,8 +126,8 @@
   </component>
   <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" />
   <component name="ProjectFrameBounds">
-    <option name="x" value="583" />
-    <option name="y" value="70" />
+    <option name="x" value="505" />
+    <option name="y" value="52" />
     <option name="width" value="1140" />
     <option name="height" value="716" />
   </component>
@@ -215,15 +215,15 @@
       <workItem from="1519615012941" duration="3105000" />
       <workItem from="1519625971067" duration="3389000" />
       <workItem from="1519703558339" duration="2422000" />
-      <workItem from="1519867797813" duration="1235000" />
+      <workItem from="1519867797813" duration="1834000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="88822000" />
+    <option name="totallyTimeSpent" value="89421000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="583" y="70" width="1140" height="716" extended-state="0" />
+    <frame x="505" y="52" width="1140" height="716" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.15526316" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
@@ -628,14 +628,14 @@
     <entry file="file://$PROJECT_DIR$/themes/next/_config.yml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="54">
-          <caret line="141" column="35" lean-forward="true" selection-start-line="141" selection-start-column="30" selection-end-line="141" selection-end-column="45" />
+          <caret line="141" column="35" lean-forward="false" selection-start-line="141" selection-start-column="30" selection-end-line="141" selection-end-column="45" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/_config.yml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="346">
+        <state relative-caret-position="238">
           <caret line="81" column="18" lean-forward="false" selection-start-line="81" selection-start-column="18" selection-end-line="81" selection-end-column="18" />
           <folding />
         </state>

@@ -72,6 +72,8 @@ deploy:
   type: git
   repo: git@itdreamworks.xyz:/home/git/.git
   branch: master
+  type: git
+  repo: git@itdreamworks.xyz:/home/git/.git
 
 #  repo: git@github.com:lzzitdreamworks/it1024.github.io.git
 #  repo: git@gitee.com:itdreamworks/it1024.git

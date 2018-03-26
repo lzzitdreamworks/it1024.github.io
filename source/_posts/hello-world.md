@@ -1,38 +1,38 @@
 ---
-title: Hello World
+title: 程序员的第一个网站
 ---
-Welcome to [Hexo](https://hexo.io/)! This is your very first post. Check [documentation](https://hexo.io/docs/) for more info. If you get any problems when using Hexo, you can find the answer in [troubleshooting](https://hexo.io/docs/troubleshooting.html) or you can ask me on [GitHub](https://github.com/hexojs/hexo/issues).
+Welcome to [IT Dream Works](https://itdreamworks.xyz/)! This is your very first post. Check [documentation](https://itdreamworks.xyz/) for more info. If you get any problems when using IT Dream Works, you can find the answer in [troubleshooting](https://itdreamworks.xyz/troubleshooting.html) or you can ask me on [GitHub](https://github.com/lzzitdreamworks/).
 
 ## Quick Start
 
 ### Create a new post
 
 ``` bash
-$ hexo new "My New Post"
+$ itdreamworks new "My New Post"
 ```
 
-More info: [Writing](https://hexo.io/docs/writing.html)
+More info: [Writing](https://itdreamworks.xyz/)
 
 ### Run server
 
 ``` bash
-$ hexo server
+$ itdreamworks server
 ```
 
-More info: [Server](https://hexo.io/docs/server.html)
+More info: [Server](https://itdreamworks.xyz/)
 
 ### Generate static files
 
 ``` bash
-$ hexo generate
+$ itdreamworks generate
 ```
 
-More info: [Generating](https://hexo.io/docs/generating.html)
+More info: [Generating](https://itdreamworks.xyz/)
 
 ### Deploy to remote sites
 
 ``` bash
-$ hexo deploy
+$ itdreamworks deploy
 ```
 
-More info: [Deployment](https://hexo.io/docs/deployment.html)
+More info: [Deployment](https://itdreamworks.xyz/)

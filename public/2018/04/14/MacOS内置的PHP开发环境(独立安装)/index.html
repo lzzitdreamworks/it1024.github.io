@@ -112,7 +112,7 @@
 
 
 
-  <meta name="keywords" content="Hexo, NexT" />
+  <meta name="keywords" content="MacOS Unix Apache Php MySQL Yii2," />
 
 
 
@@ -125,17 +125,29 @@
 
 
 
-<meta name="description" content="Welcome to IT Dream Works! This is your very first post. Check documentation for more info. If you get any problems when using IT Dream Works, you can find the answer in troubleshooting or you can ask">
+<meta name="description" content="二、MacOS内置的PHP开发环境（独立安装）2.1、运行Apache 好了，该进入正文了。先来看看装备的耐草指数吧：  这里主要是想说明，系统配置的差异，会对电脑自带的环境及参数有差异，但对我们的开发和后面的环境搭建和配置基本是没什么影响的。要感谢公司哈，好好准备物尽其用吧～。 首先，我们可以先打开终端，至于Mac怎么打开终端还不熟悉的童鞋，请自行百度哦。由于MacOS中已经内置了PHP，Pyt">
+<meta name="keywords" content="MacOS Unix Apache Php MySQL Yii2">
 <meta property="og:type" content="article">
-<meta property="og:title" content="程序员的第一个网站">
-<meta property="og:url" content="https://itdreamworks.xyz/2018/03/09/hello-world/index.html">
+<meta property="og:title" content="Php开发环境独立安装与Yii2框架配置">
+<meta property="og:url" content="https://itdreamworks.xyz/2018/04/14/MacOS内置的PHP开发环境(独立安装)/index.html">
 <meta property="og:site_name" content="IT梦工厂">
-<meta property="og:description" content="Welcome to IT Dream Works! This is your very first post. Check documentation for more info. If you get any problems when using IT Dream Works, you can find the answer in troubleshooting or you can ask">
+<meta property="og:description" content="二、MacOS内置的PHP开发环境（独立安装）2.1、运行Apache 好了，该进入正文了。先来看看装备的耐草指数吧：  这里主要是想说明，系统配置的差异，会对电脑自带的环境及参数有差异，但对我们的开发和后面的环境搭建和配置基本是没什么影响的。要感谢公司哈，好好准备物尽其用吧～。 首先，我们可以先打开终端，至于Mac怎么打开终端还不熟悉的童鞋，请自行百度哦。由于MacOS中已经内置了PHP，Pyt">
 <meta property="og:locale" content="zh-Hans">
-<meta property="og:updated_time" content="2018-03-09T09:08:37.519Z">
+<meta property="og:image" content="http://p1nd11vo8.bkt.clouddn.com/macprosystem.png">
+<meta property="og:image" content="http://p1nd11vo8.bkt.clouddn.com/check_version.png">
+<meta property="og:image" content="http://p1nd11vo8.bkt.clouddn.com/root_pwd.png">
+<meta property="og:image" content="http://p1nd11vo8.bkt.clouddn.com/user_sudo.png">
+<meta property="og:image" content="http://p1nd11vo8.bkt.clouddn.com/apache_start.png">
+<meta property="og:image" content="http://p1nd11vo8.bkt.clouddn.com/config_php7.png">
+<meta property="og:image" content="http://p1nd11vo8.bkt.clouddn.com/apache_php.png">
+<meta property="og:image" content="http://p1nd11vo8.bkt.clouddn.com/local_mysql.png">
+<meta property="og:image" content="http://p1nd11vo8.bkt.clouddn.com/mysql_login.png">
+<meta property="og:image" content="http://p1nd11vo8.bkt.clouddn.com/modify_pwd.png">
+<meta property="og:updated_time" content="2018-04-14T03:14:45.764Z">
 <meta name="twitter:card" content="summary">
-<meta name="twitter:title" content="程序员的第一个网站">
-<meta name="twitter:description" content="Welcome to IT Dream Works! This is your very first post. Check documentation for more info. If you get any problems when using IT Dream Works, you can find the answer in troubleshooting or you can ask">
+<meta name="twitter:title" content="Php开发环境独立安装与Yii2框架配置">
+<meta name="twitter:description" content="二、MacOS内置的PHP开发环境（独立安装）2.1、运行Apache 好了，该进入正文了。先来看看装备的耐草指数吧：  这里主要是想说明，系统配置的差异，会对电脑自带的环境及参数有差异，但对我们的开发和后面的环境搭建和配置基本是没什么影响的。要感谢公司哈，好好准备物尽其用吧～。 首先，我们可以先打开终端，至于Mac怎么打开终端还不熟悉的童鞋，请自行百度哦。由于MacOS中已经内置了PHP，Pyt">
+<meta name="twitter:image" content="http://p1nd11vo8.bkt.clouddn.com/macprosystem.png">
 
 
 
@@ -165,13 +177,13 @@
 
 
 
-  <link rel="canonical" href="https://itdreamworks.xyz/2018/03/09/hello-world/"/>
+  <link rel="canonical" href="https://itdreamworks.xyz/2018/04/14/MacOS内置的PHP开发环境(独立安装)/"/>
 
 
 
 
 
-  <title>程序员的第一个网站 | IT梦工厂</title>
+  <title>Php开发环境独立安装与Yii2框架配置 | IT梦工厂</title>
   
 
 
@@ -384,7 +396,7 @@ const loadScript = function loadScript(c,b){var a=document.createElement("script
   
   
   <div class="post-block">
-    <link itemprop="mainEntityOfPage" href="https://itdreamworks.xyz/2018/03/09/hello-world/">
+    <link itemprop="mainEntityOfPage" href="https://itdreamworks.xyz/2018/04/14/MacOS内置的PHP开发环境(独立安装)/">
 
     <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
       <meta itemprop="name" content="itdreamworks">
@@ -401,7 +413,7 @@ const loadScript = function loadScript(c,b){var a=document.createElement("script
 
         
         
-          <h1 class="post-title" itemprop="name headline">程序员的第一个网站</h1>
+          <h1 class="post-title" itemprop="name headline">Php开发环境独立安装与Yii2框架配置</h1>
         
 
         <div class="post-meta">
@@ -413,8 +425,8 @@ const loadScript = function loadScript(c,b){var a=document.createElement("script
               
                 <span class="post-meta-item-text">发表于</span>
               
-              <time title="创建于" itemprop="dateCreated datePublished" datetime="2018-03-09T17:08:37+08:00">
-                2018-03-09
+              <time title="创建于" itemprop="dateCreated datePublished" datetime="2018-04-14T11:10:10+08:00">
+                2018-04-14
               </time>
             
 
@@ -431,7 +443,7 @@ const loadScript = function loadScript(c,b){var a=document.createElement("script
 
           
           
-             <span id="/2018/03/09/hello-world/" class="leancloud_visitors" data-flag-title="程序员的第一个网站">
+             <span id="/2018/04/14/MacOS内置的PHP开发环境(独立安装)/" class="leancloud_visitors" data-flag-title="Php开发环境独立安装与Yii2框架配置">
                <span class="post-meta-divider">|</span>
                <span class="post-meta-item-icon">
                  <i class="fa fa-eye"></i>
@@ -456,7 +468,7 @@ const loadScript = function loadScript(c,b){var a=document.createElement("script
                   <span class="post-meta-item-text">字数统计&#58;</span>
                 
                 <span title="字数统计">
-                  82
+                  1,070
                 </span>
               
 
@@ -472,7 +484,7 @@ const loadScript = function loadScript(c,b){var a=document.createElement("script
                   <span class="post-meta-item-text">阅读时长 &asymp;</span>
                 
                 <span title="阅读时长">
-                  1
+                  4
                 </span>
               
             </div>
@@ -493,16 +505,77 @@ const loadScript = function loadScript(c,b){var a=document.createElement("script
       
 
       
-        <p>Welcome to <a href="https://itdreamworks.xyz/">IT Dream Works</a>! This is your very first post. Check <a href="https://itdreamworks.xyz/">documentation</a> for more info. If you get any problems when using IT Dream Works, you can find the answer in <a href="https://itdreamworks.xyz/troubleshooting.html">troubleshooting</a> or you can ask me on <a href="https://github.com/lzzitdreamworks/" target="_blank" rel="noopener">GitHub</a>.</p>
-<h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ itdreamworks new <span class="string">"My New Post"</span></span><br></pre></td></tr></table></figure>
-<p>More info: <a href="https://itdreamworks.xyz/">Writing</a></p>
-<h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ itdreamworks server</span><br></pre></td></tr></table></figure>
-<p>More info: <a href="https://itdreamworks.xyz/">Server</a></p>
-<h3 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ itdreamworks generate</span><br></pre></td></tr></table></figure>
-<p>More info: <a href="https://itdreamworks.xyz/">Generating</a></p>
-<h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ itdreamworks deploy</span><br></pre></td></tr></table></figure>
-<p>More info: <a href="https://itdreamworks.xyz/">Deployment</a></p>
-
+        <h4 id="二、MacOS内置的PHP开发环境（独立安装）"><a href="#二、MacOS内置的PHP开发环境（独立安装）" class="headerlink" title="二、MacOS内置的PHP开发环境（独立安装）"></a>二、MacOS内置的PHP开发环境（独立安装）</h4><h4 id="2-1、运行Apache"><a href="#2-1、运行Apache" class="headerlink" title="2.1、运行Apache"></a><strong>2.1、运行Apache</strong></h4><blockquote>
+<p>好了，该进入正文了。先来看看装备的耐草指数吧：</p>
+<p><img src="http://p1nd11vo8.bkt.clouddn.com/macprosystem.png" alt="MackBookPro系统参数："></p>
+<p>这里主要是想说明，系统配置的差异，会对电脑自带的环境及参数有差异，但对我们的开发和后面的环境搭建和配置基本是没什么影响的。要感谢公司哈，好好准备物尽其用吧～。</p>
+<p>首先，我们可以先打开终端，至于Mac怎么打开终端还不熟悉的童鞋，请自行百度哦。由于MacOS中已经内置了PHP，Python，Ruby等常用的脚本语言，以及ApacheHTTP服务器，我们可以通过终端输入以下命令来查看（既然有内置的，我们也来用用呗，没有比较就没有选择嘛）:  <img src="http://p1nd11vo8.bkt.clouddn.com/check_version.png" alt="查看内置的php+apache版本"></p>
+<p><a href="https://blog.csdn.net/tanga842428/article/details/70193835" target="_blank" rel="noopener">mac终端普通用户切换root用户</a></p>
+<p>xxx is not in the sudoers file.This incident will be reported.的解决方法:</p>
+<p><a href="https://www.aliyun.com/jiaocheng/185436.html" target="_blank" rel="noopener">xxx is not in the sudoers file的解决办法</a></p>
+</blockquote>
+<p><img src="http://p1nd11vo8.bkt.clouddn.com/root_pwd.png" alt="mac终端普通用户切换root"></p>
+<p><img src="http://p1nd11vo8.bkt.clouddn.com/user_sudo.png" alt="普通用户切换成root"></p>
+<blockquote>
+<p>su - 用户名 (-和用户名之间有英文半角空格) 切换回普通用户，eg.  <strong>su - itworks</strong> （这里itworks换成你们自己的用户名）    <a href="https://blog.csdn.net/cgema/article/details/72457985" target="_blank" rel="noopener">Mac下快速搭建PHP开发环境</a></p>
+</blockquote>
+<p><img src="http://p1nd11vo8.bkt.clouddn.com/apache_start.png" alt="开启apache并测试"></p>
+<blockquote>
+<p>常用命令：</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line">&gt; sudo apachectl -v	查看Apache版本</span><br><span class="line">&gt; sudo apachectl start	开启Apache</span><br><span class="line">&gt; sudo apachectl stop		关闭Apache</span><br><span class="line">&gt; sudo apachectl restart	重启Apache</span><br><span class="line">&gt;</span><br></pre></td></tr></table></figure>
+</blockquote>
+<h4 id="2-2、配置PHP"><a href="#2-2、配置PHP" class="headerlink" title="2.2、配置PHP"></a>2.2、配置PHP</h4><p><img src="http://p1nd11vo8.bkt.clouddn.com/config_php7.png" alt="配置php7"></p>
+<p>编辑Apache的配置文件，终端输入：</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">sudo vi /etc/apache2/httpd.conf</span><br></pre></td></tr></table></figure>
+<p>找到：</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">#LoadModule php7_module libexec/apache2/libphp7.so</span><br></pre></td></tr></table></figure>
+<p>去掉前面的“#”号注释，然后 :wq 保存退出即可</p>
+<p>复制一份php.ini.default并将其命名为php.ini即可</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">sudo cp /etc/php.ini.default /etc/php.ini</span><br></pre></td></tr></table></figure>
+<p>重启Apache，使其生效</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">sudo apachectl restart</span><br></pre></td></tr></table></figure>
+<p>测试apache与php之间的通信：</p>
+<p><img src="http://p1nd11vo8.bkt.clouddn.com/apache_php.png" alt="apache与php通信"></p>
+<p>没问题了以后，就可以在这里写写测试Demo了^_^</p>
+<h4 id="2-3、安装并运行MySQL"><a href="#2-3、安装并运行MySQL" class="headerlink" title="2.3、安装并运行MySQL"></a>2.3、安装并运行MySQL</h4><p>下载MySQL：<a href="https://dev.mysql.com/downloads/mysql/" target="_blank" rel="noopener">MySQL官网</a>   下载后双击安装，成功之后，会弹出提示框：</p>
+<blockquote>
+<p>MySQL: 2018-04-03T08:30:17.852818Z 1  [<strong>Note</strong>] <strong>A temporary password is generated for root@localhost: ?B</strong>(<strong>dL+ge</strong>)<strong>1Je</strong>   <strong><em>注：localhost冒号后面的就是 MySQL临时登录密码）</em></strong></p>
+<p>If you lose this password<strong>, </strong>please consult the section How to Reset the Root Password in the MySQL reference manual.**</p>
+<p>从弹窗中Copy记住这个密码，并保存起来，以备初次登录使用。</p>
+</blockquote>
+<p><a href="https://www.jianshu.com/p/fd3aae701db9" target="_blank" rel="noopener">mac安装mysql的两种方法（含配置）</a>  </p>
+<p>启动MySQL使之处于running状态：</p>
+<p><img src="http://p1nd11vo8.bkt.clouddn.com/local_mysql.png" alt="启动MySQL"> </p>
+<p>mac下mysql terminal命令行设置以及常规用法：</p>
+<blockquote>
+<p>首先正常使用时，需要找到MySQL所在bin目录，例如：</p>
+<ol>
+<li><p>$ /usr/local/mysql/bin/mysql -u root -p  </p>
+</li>
+<li><p>Enter password:   </p>
+</li>
+<li><p>通过mysql -uroot -p登录mysql, 输入之前保存的密码，然后重置mysql初始密码 </p>
+<p>（PS: 我个人觉得这应该是最简单方便的修改MySQL初始密码的方式了）</p>
+<p>原理是修改database：mysql 的table：user 中的User字段为root的密码，5.7版本的mysql的密码字段是authentication_string，低版本的叫password;</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br></pre></td><td class="code"><pre><span class="line">&gt;    SET PASSWORD FOR &apos;root&apos;@&apos;localhost&apos; = PASSWORD(&apos;newpassword&apos;);  </span><br><span class="line">&gt;    刷新权限，退出重启：</span><br><span class="line">&gt;    MySQL&gt; flush privileges;</span><br><span class="line">&gt;    MySQL&gt; quit;</span><br><span class="line">&gt;    终端：service mysql start</span><br><span class="line">&gt;    密码修改完成</span><br><span class="line">&gt;</span><br></pre></td></tr></table></figure>
+</li>
+</ol>
+</blockquote>
+<p>至于像网上所说的 <a href="https://blog.csdn.net/pariese/article/details/77527813" target="_blank" rel="noopener">mac下修改mysql的密码</a> 的各种方式，我暂时还没有一一试过。所涉及的</p>
+<blockquote>
+<p>vim ~/.bash_profile      我当前的it_works用户下并没有该文件，可以使用</p>
+<p><strong>find / -name .bash_profile</strong>    命令查找，发现是在管理员用户目录下：</p>
+<p>/Users/zhaozhangli/.bash_profile</p>
+</blockquote>
+<p><img src="http://p1nd11vo8.bkt.clouddn.com/mysql_login.png" alt="MySQL第一次登录"></p>
+<p>这里可以使用SQL:  mysql&gt; select version();  查看版本号</p>
+<p><img src="http://p1nd11vo8.bkt.clouddn.com/modify_pwd.png" alt="修改初始密码">   </p>
+<p><a href="http://p1nd11vo8.bkt.clouddn.com/apache_start.png" target="_blank" rel="noopener">mac下mysql terminal命令行设置以及常规用法</a>  </p>
+<p>注意：Automatically Start MySQL Server On Startup是默认勾选的，勾选后打开电脑会默认开启MySQL，建议不需要的可以不用默认勾选。至于这里为什么独立安装一个相对新版的MySQL 5.7.21，当然是为了体验新版本所带来的新技术和新特性了。这里想尝鲜或者想当第一个吃螃蟹的小伙伴，可以先看下这个友情链接：</p>
+<p><a href="http://www.cnblogs.com/nulige/articles/6880535.html" target="_blank" rel="noopener">MySQL 5.7 新特性大全和未来展望</a></p>
+<p>嫌终端查看数据库不方便的，可以下载Navicat Lite管理软件，管理MySQL超级方便。后面的教程会再详细介绍。</p>
+<p>至此，利用MacOS系统内置的Apache+MySQL+PHP的独立开发环境已经安装完毕，暂告一段落了！</p>
+<h5 id="下一篇：MAMP集成环境使用与Yii2框架配置"><a href="#下一篇：MAMP集成环境使用与Yii2框架配置" class="headerlink" title="下一篇：MAMP集成环境使用与Yii2框架配置"></a>下一篇：MAMP集成环境使用与Yii2框架配置</h5>
       
     </div>
     
@@ -570,6 +643,12 @@ const loadScript = function loadScript(c,b){var a=document.createElement("script
 
     <footer class="post-footer">
       
+        <div class="post-tags">
+          
+            <a href="/tags/MacOS-Unix-Apache-Php-MySQL-Yii2/" rel="tag"><i class="fa fa-tag"></i> MacOS Unix Apache Php MySQL Yii2</a>
+          
+        </div>
+      
 
       
       
@@ -579,8 +658,8 @@ const loadScript = function loadScript(c,b){var a=document.createElement("script
         <div class="post-nav">
           <div class="post-nav-next post-nav-item">
             
-              <a href="/2018/02/08/test-my-site/" rel="next" title="test_my_site">
-                <i class="fa fa-chevron-left"></i> test_my_site
+              <a href="/2018/04/14/MAMP集成环境使用与Yii2框架配置/" rel="next" title="MAMP集成环境使用与Yii2框架配置">
+                <i class="fa fa-chevron-left"></i> MAMP集成环境使用与Yii2框架配置
               </a>
             
           </div>
@@ -588,10 +667,6 @@ const loadScript = function loadScript(c,b){var a=document.createElement("script
           <span class="post-nav-divider"></span>
 
           <div class="post-nav-prev post-nav-item">
-            
-              <a href="/2018/04/13/MacOS使用背景前言/" rel="prev" title="MacOS使用背景前言">
-                MacOS使用背景前言 <i class="fa fa-chevron-right"></i>
-              </a>
             
           </div>
         </div>
@@ -962,7 +1037,7 @@ const loadScript = function loadScript(c,b){var a=document.createElement("script
             
 
             
-              <div class="post-toc-content"><ol class="nav"><li class="nav-item nav-level-2"><a class="nav-link" href="#Quick-Start"><span class="nav-number">1.</span> <span class="nav-text">Quick Start</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#Create-a-new-post"><span class="nav-number">1.1.</span> <span class="nav-text">Create a new post</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#Run-server"><span class="nav-number">1.2.</span> <span class="nav-text">Run server</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#Generate-static-files"><span class="nav-number">1.3.</span> <span class="nav-text">Generate static files</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#Deploy-to-remote-sites"><span class="nav-number">1.4.</span> <span class="nav-text">Deploy to remote sites</span></a></li></ol></li></ol></div>
+              <div class="post-toc-content"><ol class="nav"><li class="nav-item nav-level-4"><a class="nav-link" href="#二、MacOS内置的PHP开发环境（独立安装）"><span class="nav-number">1.</span> <span class="nav-text">二、MacOS内置的PHP开发环境（独立安装）</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#2-1、运行Apache"><span class="nav-number">2.</span> <span class="nav-text">2.1、运行Apache</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#2-2、配置PHP"><span class="nav-number">3.</span> <span class="nav-text">2.2、配置PHP</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#2-3、安装并运行MySQL"><span class="nav-number">4.</span> <span class="nav-text">2.3、安装并运行MySQL</span></a><ol class="nav-child"><li class="nav-item nav-level-5"><a class="nav-link" href="#下一篇：MAMP集成环境使用与Yii2框架配置"><span class="nav-number">4.1.</span> <span class="nav-text">下一篇：MAMP集成环境使用与Yii2框架配置</span></a></li></ol></li></ol></div>
             
 
           </div>
